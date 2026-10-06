@@ -6,10 +6,7 @@ tags:
 ---
 
 ## Overview
-This block diagram shows the basic overview of my subsystem. Important things to mention are:
-* Power
-* IR Sensors
-* Team Connection Points
+This block diagram shows the basic overview of my subsystem. Important things to mention are the power supply, connection to teammates and the IR sensor
 
 
 
