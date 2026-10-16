@@ -5,7 +5,7 @@ title: Component Selection Example
 
 1. CA3140AEZ MOSFET‑input op amp
 
-    ![](image1.png)
+    ![](TL081CP_CA3140AEZ.png)
 
     * $3.78/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -19,7 +19,7 @@ title: Component Selection Example
 
 2. LT1498IN8#PBF low‑noise precision op amp
 
-    ![](image3.png)
+    ![](LT1498IN8#PBF.png)
 
     * $11.67/each
     * [link to product](https://www.digikey.com/en/products/detail/analog-devices-inc/LT1498IN8-PBF/891552)
@@ -32,7 +32,7 @@ title: Component Selection Example
  
 3. TL081CP JFET‑input op amp
 
-    ![](image2.png)
+    ![](TL081CP_CA3140AEZ.png)
 
     * $0.65/each
     * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TL081CP/458)
@@ -52,7 +52,8 @@ The CA3140AMZ works best for your heart‑rate monitor because it’s one of the
    
 1. TSAL6200 (IR Transmitter) + TSOP38238 (IR Receiver)
 
-    ![](image1.png)
+    ![](TSAL6200.png)
+    ![](TSOP38238.png)
 
     * TX: $0.72/each — TSAL6200
     * RX: $1.18/each — TSOP38238
@@ -66,9 +67,10 @@ The CA3140AMZ works best for your heart‑rate monitor because it’s one of the
     | High sensitivity receiver reduces noise in pulse detection | TX requires current‑limiting resistor |
    
 
-2. SFH4550 (IR Transmitter) + SFH213 (IR Photodiode)
+3. SFH4550 (IR Transmitter) + SFH213 (IR Photodiode)
 
-    ![](image2.png)
+    ![](SFH4550.png)
+    ![](SFH213.png)
 
     * TX: $0.48/each — SFH4550
     * RX: $0.62/each — SFH213
@@ -81,10 +83,10 @@ The CA3140AMZ works best for your heart‑rate monitor because it’s one of the
     | Wide‑angle IR LED improves skin illumination | More sensitive to ambient light than demodulated receivers |
     | Very inexpensive pair                      | Requires careful PCB layout for noise reduction |
 
-3. LTE‑4208 (IR LED) + LTR‑4206E (IR Phototransistor)
+5. LTE‑4208 (IR LED) + LTR‑4206E (IR Phototransistor)
 
-    ![](image3.png)
-
+    ![](LTE-4208.png)
+    ![](LTR-4206E.png)
     * TX: $0.38/each — LTE‑4208
     * RX: $0.52/each — LTR‑4206E
     * [link to TX](https://www.digikey.com/en/products/detail/liteon/LTE-4208/121707)
