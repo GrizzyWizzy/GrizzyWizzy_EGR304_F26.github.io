@@ -19,7 +19,7 @@ title: Component Selection Example
 
 2. LT1498IN8#PBF low‑noise precision op amp
 
-    ![](LT1498IN8#PBF.png)
+    ![](LT1498IN8PBF.png)
 
     * $11.67/each
     * [link to product](https://www.digikey.com/en/products/detail/analog-devices-inc/LT1498IN8-PBF/891552)
