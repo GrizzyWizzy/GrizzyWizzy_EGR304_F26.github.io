@@ -69,8 +69,8 @@ The CA3140AMZ works best for your heart‑rate monitor because it’s one of the
 
 3. SFH4550 (IR Transmitter) + SFH213 (IR Photodiode)
 
-    ![](SFH4550.png)
-    ![](SFH213.png)
+    ![](SFH-4550.png)
+    ![](SFH-213.png)
 
     * TX: $0.48/each — SFH4550
     * RX: $0.62/each — SFH213
