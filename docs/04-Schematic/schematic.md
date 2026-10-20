@@ -2,6 +2,9 @@
 title: Schematic
 ---
 ## Overview
+**NOTE: IMAGE FAILING TO DISPLAY**
+
+![](HRTRateMonitorProject-10_19.png)
 
 **1. IR Emitter and Photodiode — Detecting the Heartbeat**
 
