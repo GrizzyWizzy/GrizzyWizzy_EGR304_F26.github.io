@@ -3,7 +3,7 @@ title: Component Selection
 ---
 **Input Op amp**
 
-1. CA3140AEZ MOSFET‑input op amp
+1. ### CA3140AEZ MOSFET‑input op amp
 
     ![](TL081CP_CA3140AEZ.png)
 
@@ -33,7 +33,7 @@ title: Component Selection
 | Extremely low input bias current (1 pA typical) works well with photodiodes and sensor interfaces | |
 
  
-3. TL081CP JFET‑input op amp
+3. ### TL081CP JFET‑input op amp
 
     ![](TL081CP_CA3140AEZ.png)
 
@@ -52,7 +52,7 @@ The MCP6004 is a good op amp because it is low-power, rail-to-rail, and works wi
    **IR TX and RX Pair**
 
    
-1. TSAL6200 (IR Transmitter) + TSOP38238 (IR Receiver)
+1. ### TSAL6200 (IR Transmitter) + TSOP38238 (IR Receiver)
 
     ![](TSAL6200.png)
     ![](TSOP38238.png)
@@ -69,7 +69,7 @@ The MCP6004 is a good op amp because it is low-power, rail-to-rail, and works wi
     | High sensitivity receiver reduces noise in pulse detection | TX requires current‑limiting resistor |
    
 
-3. SFH4550 (IR Transmitter) + SFH213 (IR Photodiode)
+3. ### SFH4550 (IR Transmitter) + SFH213 (IR Photodiode)
 
     ![](SFH-4550.png)
     ![](SFH-213.png)
@@ -85,7 +85,7 @@ The MCP6004 is a good op amp because it is low-power, rail-to-rail, and works wi
     | Wide‑angle IR LED improves skin illumination | More sensitive to ambient light than demodulated receivers |
     | Very inexpensive pair                      | Requires careful PCB layout for noise reduction |
 
-5. LTE‑4208 (IR LED) + LTR‑4206E (IR Phototransistor)
+5. ### LTE‑4208 (IR LED) + LTR‑4206E (IR Phototransistor)
 
     ![](LTE-4208.png)
     ![](LTR-4206E.png)
