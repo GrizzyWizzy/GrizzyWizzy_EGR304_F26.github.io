@@ -8,7 +8,7 @@ title: Component Selection
     ![](TL081CP_CA3140AEZ.png)
 
     * $3.78/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * [link to product](https://www.digikey.com/en/products/detail/renesas-electronics-corporation/CA3140AEZ/821386)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
