@@ -17,18 +17,21 @@ title: Component Selection
     | Low offset voltage stable baseline for pulse detection| Requires external biasing and filtering|
 
 
-2. LT1498IN8#PBF low‑noise precision op amp
+2. ### MCP6004-I/P Low-Power Quad Rail-to-Rail Op Amp
 
-    ![](LT1498IN8PBF.png)
+![](MCP6004IP.png)
 
-    * $11.67/each
-    * [link to product](https://www.digikey.com/en/products/detail/analog-devices-inc/LT1498IN8-PBF/891552)
+* ~$0.60/each
+* [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Low input bias current ideal for photoplethysmography (PPG) sensors | More expensive increases BOM cost |
-    | High slew rate preserves pulse waveform shape                      | Requires careful PCB layout to minimize noise |
-    | Wide temperature range  suitable for fitness/outdoor HR devices     | |
+| Pros | Cons |
+|--------|--------|
+| Rail-to-rail input and output maximizes signal range on 3.3 V and 5 V systems | Lower bandwidth (1 MHz) than many high-speed op-amps |
+| Very low power consumption (100 µA typical per amplifier) | Not ideal for high-frequency or RF applications |
+| Includes four op-amps in one package, reducing PCB space and cost | Moderate input offset voltage (4.5 mV typical) |
+| Operates from 1.8 V to 6 V, making it ideal for battery-powered sensor circuits | Limited slew rate (0.6 V/µs) for fast-changing signals |
+| Extremely low input bias current (1 pA typical) works well with photodiodes and sensor interfaces | |
+
  
 3. TL081CP JFET‑input op amp
 
@@ -43,9 +46,8 @@ title: Component Selection
     | High slew rate (13 V/µs) preserves pulse waveform shape               | Not rail to rail reduced output swing at low voltages           |
     | Through‑hole DIP‑8 easy prototyping and breadboard‑friendly           | Slightly higher input bias current than CA3140                   |
 
-### Why the CA3140AMZ is the best op‑amp choice
-The CA3140AMZ works best for your heart‑rate monitor because it’s one of the few through hole op amps that performs reliably at a single 5 V supply while still offering extremely high input impedance and low offset—two traits that are essential when amplifying the tiny current changes produced by a photodiode. Its MOSFET input architecture makes it far more forgiving in low signal, high noise environments, and its wide supply range gives you design flexibility on your custom PCB without forcing dual‑rail power. Overall, it provides clean, stable analog gain with minimal fuss, which is exactly what a reflective PPG circuit needs.
-
+### Why the MCP6004 is the best op‑amp choice
+The MCP6004 is a good op amp because it is low-power, rail-to-rail, and works with 3.3 V or 5 V supplies. It also includes four op amps in one chip, making it a compact and cost-effective choice for sensor and microcontroller projects like a heart rate monitor.
 
    **IR TX and RX Pair**
 
