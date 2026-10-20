@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#why-the-ca3140amz-is-the-best-opamp-choice" class="md-skip">
+        <a href="#mcp6004-ip-low-power-quad-rail-to-rail-op-amp" class="md-skip">
           Skip to content
         </a>
       
@@ -548,9 +548,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#why-the-ca3140amz-is-the-best-opamp-choice" class="md-nav__link">
+  <a href="#mcp6004-ip-low-power-quad-rail-to-rail-op-amp" class="md-nav__link">
     <span class="md-ellipsis">
-      Why the CA3140AMZ is the best op‑amp choice
+      MCP6004-I/P Low-Power Quad Rail-to-Rail Op Amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-the-mcp6004-is-the-best-opamp-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the MCP6004 is the best op‑amp choice
     </span>
   </a>
   
@@ -800,9 +809,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#why-the-ca3140amz-is-the-best-opamp-choice" class="md-nav__link">
+  <a href="#mcp6004-ip-low-power-quad-rail-to-rail-op-amp" class="md-nav__link">
     <span class="md-ellipsis">
-      Why the CA3140AMZ is the best op‑amp choice
+      MCP6004-I/P Low-Power Quad Rail-to-Rail Op Amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-the-mcp6004-is-the-best-opamp-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the MCP6004 is the best op‑amp choice
     </span>
   </a>
   
@@ -875,11 +893,13 @@
 </table>
 </li>
 <li>
-<p>LT1498IN8#PBF low‑noise precision op amp</p>
+<h3 id="mcp6004-ip-low-power-quad-rail-to-rail-op-amp">MCP6004-I/P Low-Power Quad Rail-to-Rail Op Amp</h3>
+</li>
+</ol>
 <p></p>
 <ul>
-<li>$11.67/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/analog-devices-inc/LT1498IN8-PBF/891552">link to product</a></li>
+<li>~$0.60/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">Link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -890,20 +910,28 @@
 </thead>
 <tbody>
 <tr>
-<td>Low input bias current ideal for photoplethysmography (PPG) sensors</td>
-<td>More expensive increases BOM cost</td>
+<td>Rail-to-rail input and output maximizes signal range on 3.3 V and 5 V systems</td>
+<td>Lower bandwidth (1 MHz) than many high-speed op-amps</td>
 </tr>
 <tr>
-<td>High slew rate preserves pulse waveform shape</td>
-<td>Requires careful PCB layout to minimize noise</td>
+<td>Very low power consumption (100 µA typical per amplifier)</td>
+<td>Not ideal for high-frequency or RF applications</td>
 </tr>
 <tr>
-<td>Wide temperature range  suitable for fitness/outdoor HR devices</td>
+<td>Includes four op-amps in one package, reducing PCB space and cost</td>
+<td>Moderate input offset voltage (4.5 mV typical)</td>
+</tr>
+<tr>
+<td>Operates from 1.8 V to 6 V, making it ideal for battery-powered sensor circuits</td>
+<td>Limited slew rate (0.6 V/µs) for fast-changing signals</td>
+</tr>
+<tr>
+<td>Extremely low input bias current (1 pA typical) works well with photodiodes and sensor interfaces</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-</li>
+<ol>
 <li>
 <p>TL081CP JFET‑input op amp</p>
 <p></p>
@@ -935,8 +963,8 @@
 </table>
 </li>
 </ol>
-<h3 id="why-the-ca3140amz-is-the-best-opamp-choice">Why the CA3140AMZ is the best op‑amp choice</h3>
-<p>The CA3140AMZ works best for your heart‑rate monitor because it’s one of the few through hole op amps that performs reliably at a single 5 V supply while still offering extremely high input impedance and low offset—two traits that are essential when amplifying the tiny current changes produced by a photodiode. Its MOSFET input architecture makes it far more forgiving in low signal, high noise environments, and its wide supply range gives you design flexibility on your custom PCB without forcing dual‑rail power. Overall, it provides clean, stable analog gain with minimal fuss, which is exactly what a reflective PPG circuit needs.</p>
+<h3 id="why-the-mcp6004-is-the-best-opamp-choice">Why the MCP6004 is the best op‑amp choice</h3>
+<p>The MCP6004 is a good op amp because it is low-power, rail-to-rail, and works with 3.3 V or 5 V supplies. It also includes four op amps in one chip, making it a compact and cost-effective choice for sensor and microcontroller projects like a heart rate monitor.</p>
 <p><strong>IR TX and RX Pair</strong></p>
 <ol>
 <li>
