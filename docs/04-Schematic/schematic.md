@@ -2,8 +2,6 @@
 title: Schematic
 ---
 ## Overview
-**NOTE: IMAGE FAILING TO DISPLAY**
-
 ![](HRTRateMonitorProject-10_19.png)
 
 **1. IR Emitter and Photodiode — Detecting the Heartbeat**
@@ -37,4 +35,4 @@ The circuit converts changes in reflected infrared light into an electrical sign
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](HRTRateMonitorProject-10_19.pdf), and the Zip folder of the project [*here*](HRTRateMonitorProject-10_19.zip).
+The schematic as a PDF download is available [*here*](HRTRateMonitorProject-10_27.pdf), and the Zip folder of the project [*here*](HRTRateMonitorProject-10_19.zip).
