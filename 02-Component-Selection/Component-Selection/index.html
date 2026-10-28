@@ -612,6 +612,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#ao3400a-n-channel-mosfet" class="md-nav__link">
+    <span class="md-ellipsis">
+      AO3400A N-Channel MOSFET
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2n7002-n-channel-mosfet" class="md-nav__link">
+    <span class="md-ellipsis">
+      2N7002 N-Channel MOSFET
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lm7805-fixed-output-linear-regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      LM7805 Fixed Output Linear Regulator
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LM7805 Fixed Output Linear Regulator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-the-lm7805-was-selected" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the LM7805 Was Selected
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -918,6 +960,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#ao3400a-n-channel-mosfet" class="md-nav__link">
+    <span class="md-ellipsis">
+      AO3400A N-Channel MOSFET
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2n7002-n-channel-mosfet" class="md-nav__link">
+    <span class="md-ellipsis">
+      2N7002 N-Channel MOSFET
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lm7805-fixed-output-linear-regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      LM7805 Fixed Output Linear Regulator
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LM7805 Fixed Output Linear Regulator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-the-lm7805-was-selected" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the LM7805 Was Selected
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1150,6 +1234,96 @@
 </ol>
 <h3 id="why-the-sfh4550-sfh213-pair-is-the-best-ir-choice">Why the SFH4550 + SFH213 pair is the best IR choice</h3>
 <p>The SFH4550 + SFH213 pair is ideal for a DIY heart rate sensor because it gives you a true analog photoplethysmography signal rather than a digital IR presence output. The SFH4550’s wide angle IR emission illuminates the skin evenly while the SFH213 photodiode produces a fast, linear current response that captures subtle blood‑volume changes accurately. Both parts are through hole, easy to mount on a custom PCB, and work perfectly with a transimpedance amplifier like the CA3140. This combination yields a clean, responsive waveform that can be filtered and amplified without fighting the limitations of slower phototransistors or demodulated IR receivers.</p>
+<h3 id="ao3400a-n-channel-mosfet">AO3400A N-Channel MOSFET</h3>
+<p><img alt="" src="2N7002.png" /></p>
+<ul>
+<li>$0.18/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855786">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Logic-level operation works from 3.3 V and 5 V GPIO pins</td>
+<td>Small SOT-23 package can be difficult to hand-solder</td>
+</tr>
+<tr>
+<td>Very low RDS(on) for efficient switching</td>
+<td>Limited power dissipation compared to larger MOSFETs</td>
+</tr>
+<tr>
+<td>Compact footprint ideal for custom PCB designs</td>
+<td>Not suitable for high-power loads without thermal considerations</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2n7002-n-channel-mosfet">2N7002 N-Channel MOSFET</h3>
+<p><img alt="" src="2N7002.png" /></p>
+<ul>
+<li>$0.10/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/onsemi/2N7002LT1G/918072">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inexpensive and widely available</td>
+<td>Higher RDS(on) than modern power MOSFETs</td>
+</tr>
+<tr>
+<td>Suitable for logic-level switching applications</td>
+<td>Limited current handling capability</td>
+</tr>
+<tr>
+<td>Excellent for signal switching and low-power control circuits</td>
+<td>Not ideal for driving high-current LEDs or motors</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lm7805-fixed-output-linear-regulator">LM7805 Fixed Output Linear Regulator</h3>
+<p><img alt="" src="LM7805.png" /></p>
+<ul>
+<li>$0.72/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provides a stable regulated 5 V output</td>
+<td>Excess input voltage is dissipated as heat</td>
+</tr>
+<tr>
+<td>Simple implementation requiring only a few external capacitors</td>
+<td>Requires input voltage above approximately 7 V</td>
+</tr>
+<tr>
+<td>Includes built-in thermal and short-circuit protection</td>
+<td>Less efficient than switching regulators</td>
+</tr>
+<tr>
+<td>Well suited for powering op amps, microcontrollers, and sensors</td>
+<td>May require a heatsink at higher load currents</td>
+</tr>
+</tbody>
+</table>
+<h4 id="why-the-lm7805-was-selected">Why the LM7805 Was Selected</h4>
+<p>The LM7805 was chosen because it provides a simple, reliable, and stable 5 V power supply for the heart-rate sensor circuit. It can regulate a higher input voltage down to a clean 5 V output required by the CA3140AEZ op amp, IR LED, photodiode interface circuitry, and microcontroller. Unlike switching regulators, the LM7805 produces very low electrical noise, which is important when amplifying the extremely small signals generated by the photodiode. Its built-in thermal shutdown and current limiting also improve circuit safety and reliability, making it an excellent choice for a low-power biomedical sensing application.</p>
 
 
 
