@@ -6,10 +6,11 @@ tags:
 ---
 ---
 ## Overview
-This block diagram shows the basic overview of my subsystem. Important things to mention are the power supply, connection to teammates and the IR sensor. The IR matched pair and the Op-amp have two options due to the need for refinement from testing. Both have the same power draw and can in theory produce needed output.
+* The heart rate sensor uses photoplethysmography (PPG) to detect changes in blood flow. An infrared (IR) LED emits light into the skin, while a photodiode measures the amount of light reflected back (The IR matched Pair). As blood volume changes with each heartbeat, the reflected light intensity varies, producing a small analog signal related to the pulse.
 
+* The photodiode signal is amplified and filtered by the MCP6004 opamp to improve signal quality and increase the voltage level to a range good for processing. The conditioned analog signal is then sampled by the PIC18F57Q43 microcontroller through its analog to digital converter (ADC), where it cleans and pushes out a more refined analog to team members.
 ---
 
 ## Block Diagram 
 
-![Individual Block Diagram](https://raw.githubusercontent.com/GrizzyWizzy/GrizzyWizzy_EGR304_F26.github.io/main/docs/Appendix/Indiv%20Block%20Diagram.drawio.png)
+![Individual Block Diagram](Indiv_Block.png)
