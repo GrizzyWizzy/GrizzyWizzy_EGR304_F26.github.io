@@ -34,10 +34,13 @@ The circuit converts changes in reflected infrared light into an electrical sign
 
 ## LTspice Testing
 To ensure the chosen circuit design would work I built the same circuit in LTspice to experiment with values and circuit types. Below is the testing of the circut with different current source values and the output it gives.
-![](LTspice_test_build.png)
-![](LTspice_test_build2.png)
-![](LTspice_test_build2.1.png)
-![](LTspice_test_build3.png)
+Test 1. ![](LTspice_test_build.png)
+
+Test 2. ![](LTspice_test_build2.png)
+
+Test 2.1. ![](LTspice_test_build2.1.png)
+
+Test 3. ![](LTspice_test_build3.png)
 
 ## Resouces
 
