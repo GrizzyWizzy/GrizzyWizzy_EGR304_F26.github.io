@@ -3,20 +3,13 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+The power budget is set out to solve the issue of power planning. With a demand for power this solves who gets what power voltage and what the total draw of amps will be.
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
-
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
-
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
-
+![budget1](PowerBudget1.png){style width:"350" height:"300;"}
 ## Conclusions
+As you can see the demand for voltage is centered around 5v and the total Amps will be 2.1mA
 
-From the prepare Power Budget, .....
-
-## Resouces
-
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+<!--## Resouces
+The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).>
