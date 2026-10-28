@@ -5,7 +5,6 @@ title: Power Budget
 ## Overview
 The power budget is set out to solve the issue of power planning. With a demand for power this solves who gets what power voltage and what the total draw of amps will be.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
 ![budget1](PowerBudget1.png){style width:"350" height:"300;"}
 ## Conclusions
